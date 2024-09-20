@@ -28,7 +28,7 @@ func basic_io() {
 func main() {
 
 	// learn_go_channels()
-	start()
+	basic_io()
 
 }
 
