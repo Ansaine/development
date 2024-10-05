@@ -11,7 +11,6 @@ func main(){
 	var age = flag.Int("age", 13, "Age")
 	var verbose = flag.Bool("verbose", true, "Enable verbose mode")
 
-
 	flag.Parse()
 
 	// Use the flag values

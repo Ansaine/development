@@ -1,6 +1,6 @@
 package main
 
-import fmt "fmt"
+import "fmt"
 
 func sum(arr []int) int {
 	ans := 0

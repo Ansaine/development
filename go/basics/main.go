@@ -5,11 +5,30 @@ import (
 	"time"
 )
 
-func basic_io() {
+
+func main() {
+
+	// learn_go_channels()
+	basic_input()
+	// basic_output()
+	// learn_defer()
+
+}
+
+func basic_input(){
+	var name string;
+	var age int;
+
+	fmt.Println("Enter name and age : ");
+	fmt.Scan(&name,&age);
+	fmt.Printf("Name is %s and age is %d", name,age);
+
+}
+func basic_output() {
+
 	// 3 methods to declare a variable
 	var message string
 	message = "Hello World"
-
 	var message2 = "Hellow World 2" // here automatically datatype is inferred
 	message3 := "Hello World 3"
 
@@ -20,15 +39,9 @@ func basic_io() {
 	// multiple print
 	fmt.Println("Hello, ", 10, " + 2 is equal to ", 12)
 
-	// NOTE -  	By default if we dont assign a value to say an integer, its default value is 0
-	// 			Datatype cannot be changed in go after declaration
-
-}
-
-func main() {
-
-	// learn_go_channels()
-	basic_io()
+	// NOTE -  	
+	// By default if we dont assign a value to say an integer, its default value is 0
+	// Datatype cannot be changed in go after declaration
 
 }
 
