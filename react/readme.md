@@ -5,4 +5,3 @@
 * Can use VITE
   * npm create vite@latest `<appName>`
 
-sdf
