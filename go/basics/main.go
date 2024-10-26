@@ -5,16 +5,6 @@ import (
 	"time"
 )
 
-
-func main() {
-
-	// learn_go_channels()
-	basic_input()
-	// basic_output()
-	// learn_defer()
-
-}
-
 func basic_input(){
 	var name string;
 	var age int;
@@ -27,8 +17,9 @@ func basic_input(){
 func basic_output() {
 
 	// 3 methods to declare a variable
-	var message string
+	var message string;
 	message = "Hello World"
+
 	var message2 = "Hellow World 2" // here automatically datatype is inferred
 	message3 := "Hello World 3"
 
@@ -45,7 +36,7 @@ func basic_output() {
 
 }
 
-// Defer
+// Defer - stack
 func learn_defer() {
 
 	fmt.Println("One")
@@ -57,8 +48,7 @@ func learn_defer() {
 	fmt.Println("Five")
 }
 
-// Go Routines
-
+// helper function
 func display(message string) {
 
 	// infinite for loop
@@ -85,4 +75,14 @@ func learn_go_channels() {
 	// access type and value of channel
 	fmt.Printf("Channel Type: %T\n", number)
 	fmt.Printf("Channel Value: %v", number)
+}
+
+
+func main() {
+
+	// // learn_go_channels()
+	// basic_input()
+	// // basic_output()
+	learn_defer()
+
 }
