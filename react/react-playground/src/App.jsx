@@ -1,6 +1,8 @@
 import './App.css'
 import Card from './components/card'
 import MemoDemo from './components/MemoDemo'
+import ContextAPIDemo from './components/ContextAPIDemo'
+import UseRefDemo from './components/useRefDemo'
 
 function App() {
 
@@ -19,7 +21,9 @@ function App() {
         </div>
 
       </div> */}
-      <MemoDemo/>
+      {/* <MemoDemo/> */}
+      {/* <ContextAPIDemo/> */}
+      <UseRefDemo/>
 
     </>
   )
