@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es6", // Updated to es6 to support Set and other ES6 features
+      "lib": ["es2015", "DOM"], // 'es2015' is correct for ES6 features
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    }
+  }
+  
